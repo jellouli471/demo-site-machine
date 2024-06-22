@@ -49,7 +49,7 @@ color: white;
     height: 70px;
     background-color: #ebf4f7;
     position: absolute;
-    bottom: 200px;
+    top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
