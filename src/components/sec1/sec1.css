@@ -1,0 +1,47 @@
+.sec1{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company-services{
+    width: 100%;
+    height: 70%;
+    background-color: #ebf4f7;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+.title-of-companyService{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-of-companyService h1{
+    color: #2a5665;
+}
+
+.items-company-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-company-services span{
+    color: #1b333a;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.card-img img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}

@@ -1,0 +1,72 @@
+.sec2{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 500px;
+}
+.company-education-policy{
+    width: 100%;
+    height: 95%;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    gap: 50px;
+}
+.big-title-company-education-policy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big-title-company-education-policy h1{
+    color: #355f6d;
+}
+.company-education-policy-content{
+
+    display: grid;
+    grid-template-columns: 700px 700px;
+    justify-content: center;
+    align-items: center;
+}
+.company-education-policy-content img{
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.side-content-1,.side-content-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 50px;
+}
+
+.side-content-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+}
+.side-second-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tword-btn button{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: #073b4c;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.first-tit span{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #5e6e73;
+}
+.secont-p p{
+    color: #a2a2a2;
+}
+
