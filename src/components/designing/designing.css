@@ -1,0 +1,49 @@
+.Designing{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Designing-box{
+    width: 800px;
+    height: 90%;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+
+
+}
+.Designing-big-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Designing-big-title h1{
+    color: #073b4c;
+}
+
+
+.Designing-side1-side2{
+    display: grid;
+    grid-template-columns: 400px 400px;
+}
+.Designing-side-1,.Designing-side-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Designing-tit span{
+    font-weight: 500;
+    color: #797979;
+}
+
+
+
+
+
+.Designing-img img{
+    width: 370px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
